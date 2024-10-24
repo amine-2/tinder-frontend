@@ -33,7 +33,7 @@ const AuthModal = ({ setShowModal, setIsSignup, isSignup }) => {
 
             }
 
-           const response = await axios.post(`https://tinder.adaptable.app/${isSignup ? 'signup': 'login'}`, { email, password })
+           const response = await axios.post(`https://tinder-backend-1.onrender.com/${isSignup ? 'signup': 'login'}`, { email, password })
 
            setCookie ( 'AuthToken', response.data.token)
            setCookie ( 'UserId', response.data.userId)
