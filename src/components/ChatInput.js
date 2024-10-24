@@ -8,7 +8,7 @@ const ChatInput = ({user, clickedUser, getUsersMessages, getClickedUserMessages}
     const [textArea, setTextArea] = useState('')
     const userId= user?.user_id
     const clickedUserId= clickedUser?.user_id
-    const url= 'https://tinder-backend-1.onrender.com'
+    const url= 'https://tinder-backend-1.onrender.com/'
 
     const addMessage= async () =>{
         const message = {
