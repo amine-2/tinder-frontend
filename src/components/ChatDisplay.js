@@ -9,7 +9,7 @@ const ChatDisplay = ({user, clickedUser}) => {
     const clickedUserId= clickedUser?.user_id
     const [usersMessages, setUsersMessages] = useState(null)
     const [clickedUserMessages, setClickedUserMessages] = useState(null)
-    const url= 'https://tinder.adaptable.app/'
+    const url= 'https://tinder-backend-1.onrender.com'
     const getUsersMessages = async () => {
         try {
                const response = await axios.get(url + 'messages', {
