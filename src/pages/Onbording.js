@@ -19,7 +19,7 @@ const Onbording = () => {
         about: '',
         matches: []
     })
-    const url= 'https://tinder-backend-1.onrender.com'
+    const url= 'https://tinder-backend-1.onrender.com/'
 
     let navigate = useNavigate()
     const handleSubmit = async (e) => {
