@@ -6,7 +6,7 @@ const MachesDisplay = ({matches, setClickedUser}) => {
     const [matchedProfiles, setMatchedProfiles] = useState(null)
 
     const matchedUserIds = matches.map(({user_id})=> user_id)
-    const url= 'https://tinder-backend-1.onrender.com'
+    const url= 'https://tinder-backend-1.onrender.com/'
 
     const getMatches = async ()=>{
    try {
