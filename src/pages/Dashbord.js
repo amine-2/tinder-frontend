@@ -17,7 +17,7 @@ const Dashboard = () => {
   const [showChats, setShowChats] = useState(false)
   const [filterArray, setFilterArray] = useState([])
   const userId = cookies.UserId
-  const url= 'https://tinder-backend-1.onrender.com'
+  const url= 'https://tinder-backend-1.onrender.com/'
 
   /**-----------**/
 
